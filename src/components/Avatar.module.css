@@ -1,0 +1,17 @@
+.avatar {
+  /*3.75rem some with border and outline 2px right + 2px left*/
+  height: 3rem;
+  width: 3rem;
+
+  border-radius: 8px;
+}
+
+.avatarWithBorder {
+  /*3.75rem some with border and outline 2px right + 2px left*/
+  height: calc(3rem + 12px);
+  width: calc(3rem + 12px);
+
+  border-radius: 8px;
+  border: 4px solid var(--gray-700);
+  outline: 2px solid var(--green-500);
+}
